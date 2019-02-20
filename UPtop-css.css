@@ -1,0 +1,166 @@
+ html {
+	  background-image:url("images/image.jpg");
+	  
+	  background-repeat:no-repeat;
+	  
+  background-attachment: fixed;
+
+  background-color: #cccccc;
+  height: 700px;
+  background-position: center;
+
+  background-size: cover;
+  position: relative;
+ }
+
+.topnav {
+  overflow: hidden;
+  background-color: #6383a8;
+  position: sticky;
+  
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding:14px 12px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.topnav a:hover {
+  background-color: #404040;
+  color:#000A46 ;
+}
+
+.topnav a.active {
+  background-color: #6383a8;
+  color: rgba(70, 65, 0, 0);
+  
+   }
+  
+ h1, h2{
+	 color: #f2f2f2;
+	
+ }
+  p {
+	 font-size: 22px;
+	 font-family:garamond;
+	 color: #f2f2f2;
+	 font-Style:normal;
+		 
+  }
+ 
+ .Box1 {
+	 background-color: #000;
+	 height: auto;
+	 width: auto;
+	 padding:2.5%;
+	 float:center;
+ }
+ 
+ .Box1 img,.Box2 img{
+	 -webkit-animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
+    animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
+    background: transparent;
+    border: 10px solid rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    display: block;
+    margin: 1.3em auto;
+    max-width: 40%;
+	 
+ }
+ em {
+	 color: #f2f2f2;
+	
+ }
+ 
+ .Box2 {
+	 background-color: #000;
+	 border-style: hidden;
+	 margin: 1.3em auto;
+	 height: auto;
+	 width: auto;
+	 padding:2.5%;
+	 float:center;
+ }
+
+ /* Bordered form */
+ form {
+   Border: 10px solid #f1f1f1;
+   width: 30%;
+   margin: auto;
+  background-color: #6383a8;
+
+   }
+
+    /*full width imput fields*/
+   input[type=text], input[type=password]{
+   width: 100%;
+   padding: 12px 20px;
+   margin: 8px 0;
+   display:inline-block;
+   border: 1px solid #ccc;
+   box-sizing: border-box;
+   }
+
+   /* setting a style for all buttons*/
+   button{
+    background-color: aqua;
+    color:white;
+    padding:14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor:pointer;
+    width: 100%;
+
+   }
+   /*adding a hover effect for the buttons*/
+   button:hover{
+     opacity: 0.8;
+   }
+   /*changing color for b*/
+   b {
+     color: white;
+   }
+
+
+
+   /* red for cancel button*/
+   .cancelbtn{
+     width: auto;
+     padding: 10px 18px;
+     background-color: #f44336;
+   }
+
+   /*fixing the logo*/
+   img.logo{
+     width: 50%;
+     border-radius:10%;
+     margin-left: 100px;
+    }
+
+   /*adding padding to the form*/
+   .container{
+     padding : 16px
+   }
+   /*forgot to the right*/ 
+   span.psw {float: right;
+  padding-top: 16px;
+    }
+
+   /*change styles for span and cancel button on extra small screen*/
+   @media screen and (max-width:300px){
+     span.psw{
+       display: block;
+       float:none;
+     }
+     .cancelbtn{
+       width:100px;
+     }
+   }
+
+
+ 
+ 
